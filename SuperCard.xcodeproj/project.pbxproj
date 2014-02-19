@@ -21,6 +21,7 @@
 		BF0F14B618B412E900420753 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF0F149818B412E800420753 /* UIKit.framework */; };
 		BF0F14BE18B412E900420753 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF0F14BC18B412E900420753 /* InfoPlist.strings */; };
 		BF0F14C018B412E900420753 /* SuperCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0F14BF18B412E900420753 /* SuperCardTests.m */; };
+		BF0F14CB18B413CE00420753 /* PlayingCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0F14CA18B413CE00420753 /* PlayingCardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		BF0F14BB18B412E900420753 /* SuperCardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SuperCardTests-Info.plist"; sourceTree = "<group>"; };
 		BF0F14BD18B412E900420753 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BF0F14BF18B412E900420753 /* SuperCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperCardTests.m; sourceTree = "<group>"; };
+		BF0F14C918B413CE00420753 /* PlayingCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardView.h; sourceTree = "<group>"; };
+		BF0F14CA18B413CE00420753 /* PlayingCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				BF0F14A318B412E800420753 /* SuperCardAppDelegate.h */,
 				BF0F14A418B412E800420753 /* SuperCardAppDelegate.m */,
 				BF0F14A618B412E800420753 /* Main.storyboard */,
+				BF0F14C918B413CE00420753 /* PlayingCardView.h */,
+				BF0F14CA18B413CE00420753 /* PlayingCardView.m */,
 				BF0F14A918B412E800420753 /* SuperCardViewController.h */,
 				BF0F14AA18B412E800420753 /* SuperCardViewController.m */,
 				BF0F14AC18B412E800420753 /* Images.xcassets */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF0F14A518B412E800420753 /* SuperCardAppDelegate.m in Sources */,
+				BF0F14CB18B413CE00420753 /* PlayingCardView.m in Sources */,
 				BF0F14A118B412E800420753 /* main.m in Sources */,
 				BF0F14AB18B412E800420753 /* SuperCardViewController.m in Sources */,
 			);
